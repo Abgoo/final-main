@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <meta name="description" content="Cargo Box">
+    <meta name="keywords" content="Cargo">
+    <meta name="author" content="Gio Abgariani">
+    <meta property="og:url" content="https://github.com/Abgoo/final2" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="SpaceX Cargo Boxes" />
+    <meta property="og:description" content="SpaceX" />
+    <meta property="og:image" content="logo" />
+    <title>Final</title>
+
+</head>
+
+<body>
+
+    <div>
+        <div> <img class="img" src="logo.PNG" alt="Logo"> </div>
+    </div>
+
+    <section>
+        <div id="lists">
+            <ul id="list">
+                <li id="shipment" class="shipmentlist white">Shipment List </li>
+                <li id="americanexpress" class="white" onclick="storeData('American Express')"> American Express</li>
+                <li id="amazon" class="white" onclick="storeData('Amazon.com')"> Amazon </li>
+                <li id="apple" class="white" onclick="storeData('Apple')"> Apple</li>
+                <li id="walmart" class="white" onclick="storeData('Walmart')"> Walmart </li>
+            </ul>
+        </div>
+
+        <div id="result" class="result">
+            <h2 class="margin" id="name">CARGO</h2>
+            <h3 class="margin" id="contact"> Cargo@gmail.com</h3>
+            <h2 class="margin" id="cargobox">CARGO BOXES</h2>
+            <input class="margin" id="input"></input>
+            <h2 class="margin" id="numberof">Number Of Required Cargo Bays</h2>
+            <h2 class="margin" id="number">0</h2>
+            <div>
+                <img class="meme" src="meme.webp" alt="meme">
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+
+</html>

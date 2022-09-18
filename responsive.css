@@ -1,0 +1,33 @@
+@media screen and (max-width: 768px) {
+    .result {
+        width: 450px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .meme {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .white {
+        margin-top: 15px;
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .img {
+        width: 350px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .margin {
+        margin-top: 6px;
+        font-size: 10px;
+    }
+}
