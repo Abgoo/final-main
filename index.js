@@ -1,4 +1,4 @@
-const link = 'https://bitbucket.org/hpstore/spacex-cargo-planner/raw/2041210d74487b1423bbf04103f4dcb103a21613103b/shipments.json';
+const link = 'https://bitbucket.org/hpstore/spacex-cargo-planner/raw/204125d74487b1423bbf0453f4dcb53a2161353b/shipments.json';
 
 async function boxCount(box) {
     let first = box.split(',');
