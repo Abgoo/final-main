@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Kdam+Thmor+Pro&family=Lobster&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Kdam+Thmor+Pro&family=Lobster&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Kdam+Thmor+Pro&family=Lobster&family=Quicksand:wght@300&display=swap');
 * {
     margin: 0;
     box-sizing: border-box;
@@ -11,14 +14,12 @@ body {
     position: relative;
 }
 
-.img {
-    max-width: 650px;
+.list {
+    margin-top: 30px;
 }
 
-#lists {
-    position: fixed;
-    top: 25%;
-    left: 0%;
+.img {
+    max-width: 650px;
 }
 
 .white {
@@ -83,7 +84,7 @@ body {
     color: gray;
 }
 
-#cargobox {
+.cargobox {
     position: absolute;
     top: 30%;
     left: 5%;
@@ -94,7 +95,7 @@ body {
     color: gray;
 }
 
-#numberof {
+.numberof {
     position: absolute;
     top: 40%;
     left: 5%;
